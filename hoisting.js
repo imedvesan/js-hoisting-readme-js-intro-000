@@ -11,10 +11,11 @@ var lyric = "maybe";
 
 function crazy() {
   // fix the code in here:
-
-  var thisIsCrazy = function (){
+thisIsCrazy()();
+  function thisIsCrazy() { function (){
     console.log("hey!!!")
   }
+}
 }
 
 function sayMyName() {
